@@ -1,0 +1,166 @@
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #2541b2;
+  border-radius: 15;
+  border: 15;
+}
+
+#nav-list {
+  margin-top: 10px;
+  border-radius: 15;
+}
+#nav-list a {
+  color: #2541b2;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-brand {
+  border-radius: 15;
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #e3f2fd;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+border-radius: 15;
+}
+
+#nav-list a {
+  color: #e3f2fd;
+  text-align: center;
+  border: 0.5px solid #e3f2fd;
+  padding: 15px;
+  border-radius: 15;
+
+}
+
+
+
+
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+  
+}
+
+* {
+  box-sizing: border-box;
+  
+  
+}
+a {
+  font-size: 2em;
+  border-radius: 15;
+  padding-top: 25px;
+  
+}
+body {
+  background-color:#03256c;
+}
+h1 {
+  text-align: center;
+  font-style: italic;
+  color: #06bee1;
+}
+.box {
+
+  background-color: #1768ac;
+  float:left;
+  height: 200px;
+  border:2px solid black;
+  margin-bottom: 20px;
+  color: #ffffff;
+
+}
+.insidebox {
+  
+  
+  top: 10px;
+  
+  margin-left: 0px;
+  margin-top: 0px;
+  border: 0.5px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+#insidebox1 {
+  
+  background-color: #90caf9;
+  font-style: italic;
+}
+#insidebox2 {
+  background-color: #42a5f5;
+  color: white;
+  font-style: italic;
+}
+#insidebox3 {
+  background-color: #1976d2;
+  font-style: italic;
+}
+@media (min-width: 992px){
+  .box {
+    
+  width:32%;
+  text-align: left;
+  overflow: auto;
+  }
+  #box1 {
+    margin-right: 1.33%;
+   
+  }
+  #box2 {
+    margin-left: 1.33%;
+    
+  }
+  #box3 {
+    margin-left: 1.33%;
+    
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  #box1 {
+    border-radius: 15;
+    width: 49%;
+    overflow: auto;
+    text-align: left;
+  }
+  #box2 {
+    border-radius: 15;
+    width: 49%;
+    margin-left: 2%;
+    overflow: auto;
+    text-align: left;
+  }
+  #box3 {
+    border-radius: 15;
+    width: 100%;
+    overflow: auto;
+    text-align: left;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .box {
+    border-radius: 15;
+    width: 100%;
+    overflow: auto;
+    text-align: left;
+  }
+}
+
+
